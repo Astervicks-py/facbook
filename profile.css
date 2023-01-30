@@ -1,0 +1,261 @@
+:root{
+  --p:#1523ff;
+  --g:#ccc;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:arial;
+}
+img{
+  width:100%;
+}
+.cover-photo{
+  width:100%;
+  height:150px;
+  background:#969696;
+  position:relative;
+}
+.camera{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background:var(--g);
+  border:solid 2px white;
+  padding:5px;
+  position:absolute;
+  right:15px;
+  bottom:10px;
+}
+.profile-pic{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  background:var(--g);
+  border:solid 1px #000;
+  text-align:center;
+  padding:10px;
+  box-shadow:
+    0 0 0 5px #fff;
+  position:absolute;
+  bottom:0;
+  left:20px;
+  transform:translateY(50%);
+  overflow:hidden;
+}
+.profile-pic i{
+  font-size:7rem;
+  color:white;  
+}
+.camera-2{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  border:solid 2px white;
+  padding:7px;
+  position:absolute;
+  left:110px;
+  background:var(--g);
+  bottom:-50px;
+  text-align:center;
+}
+.camera-2 img{
+  width:90%
+}
+.dots{
+  width:3px;
+  height:3px;
+  background:#000;
+  box-shadow:
+    -5px 0 0 0 #000,
+    5px 0 0 0 #000;
+    border-radius:50%;
+    margin-right:10px;
+    align-self:flex-start;
+    margin-top:8px;
+}
+.plus{
+  color:white;
+  font-size:1rem
+}
+
+.btn{
+  padding:7px 12px;
+  border:none;
+  outline:none;
+  font-size:1.1rem;
+  font-weight:bold;
+  border-radius:5px;
+}
+.one{
+  background:#716aff;
+  color:white;
+}
+.three{
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:12px;
+  padding-left:20px;
+  padding-right:10px;
+}
+.topic{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+.friends{
+  padding:10px 0px;
+}
+.card{
+  max-width:100px;
+  min-width:100px;
+  border-radius:10px;
+}
+.friends{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  row-gap:20px
+}
+hr{
+  margin-bottom:15px;
+  margin-top:15px;
+  border-bottom:solid 4px #9b9b9b;
+}
+.icon-btn{
+  padding:10px 20px;
+  border-radius:20px;
+  background:var(--g);
+  border:none;
+  outline:none;
+  font-size:1.1rem;
+  font-weight:bold;
+}
+.circle{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  border:solid 1px var(--g);
+}
+input{
+  height:40px;
+  border-radius:30px;
+  outline:none;
+  border:none;
+  background:#d2d2d2;
+  padding:5px 15px;
+  width:70%;
+}
+input::placeholder{
+  color:black;
+  font-size:1.1rem
+}
+.icons{
+  display:flex;
+  padding:10px 30px;
+  justify-content:space-between;
+
+}
+.input{
+  display:flex;
+  justify-content:space-between;
+  padding: 5px 20px;
+  align-items:center;
+}
+.post{
+  display:flex;
+  flex-direction:column;
+}
+.add{
+  width:70px;
+  text-align:center;
+  font-weight:bold;
+  font-size:1.1rem;
+  margin-top:20px;
+  margin-left:14px;
+}
+.post-details{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  padding:10px 15px;
+}
+.post-details img{
+  width:50px;
+  border-radius:50%;
+}
+.user-time{
+  display:flex;
+  flex-direction:row;
+  gap:5px;
+}
+.user{
+  display:flex;
+  flex-direction:column;
+  margin-left:10px;
+}
+.user-time p{
+  color:#b0b0b0
+}
+.user-time h4{
+  justify-self:flex-start;
+}
+.dots{
+  width:5px;
+  height:5px;
+  background:#b0b0b0;
+  box-shadow:
+    -8px 0 0 0 #b0b0b0,
+    8px 0 0 0 #b0b0b0;
+    border-radius:50%;
+    margin-right:10px;
+    align-self:flex-start;
+    margin-top:8px;
+}
+.post-content img{
+  width:100%;
+}
+.like-icon{
+  color:#fff;
+  background:#1523ff;
+  border-radius:50%;
+  padding:3px
+}
+.people-liked{
+  font-size:1.1rem;
+  color:#767676;
+  padding:3px 15px;
+  }
+.post-stats{
+  width:100%;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:10px;
+  /*justify-content:space-between;*/
+  padding:5px;
+  
+}
+.post-stats button{
+  background:var(--g);
+ /* width:100%;*/
+  /*height:30px;*/
+  border:none;
+  outline:none;
+  border-radius:30px;
+  width:100%;
+  padding:10px;
+}
+.like{
+  font-size:1.3rem;
+  color:#00f;
+  
+}
+.share{
+  font-size:1.3rem;
+}
+
+.text-align-center{
+  width:100%;
+  text-align:center;
+}
