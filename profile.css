@@ -159,6 +159,9 @@ input::placeholder{
   gap:10px;
 
 }
+.pad-right-10{
+  padding-right:10px;
+}
 .input{
   display:flex;
   justify-content:space-between;
